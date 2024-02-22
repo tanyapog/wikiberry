@@ -24,6 +24,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: AppIcon
+      fonts:
+        - asset: assets/fonts/AppIcon.ttf
   assets:
+    - assets/icons/
     - assets/images/berries/
     - assets/data/berries_catalog.json
