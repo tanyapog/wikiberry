@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Barberry",
+    "latinName": "Berberis",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/barberry.png",
+    "regions": []
+  },
+  {
+    "name": "Bilberry",
+    "latinName": "Vaccinium myrtillus",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/bilberry.png",
+    "regions": []
+  },
+  {
+    "name": "Blackberry",
+    "latinName": "Rubus fruticosus",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/blackberry.png",
+    "regions": []
+  },
+  {
+    "name": "Blackthorn",
+    "latinName": "Prunus spinosa",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/blackthorn.png",
+    "regions": []
+  },
+  {
+    "name": "Blueberry",
+    "latinName": "Vaccinium caesariense",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/blueberry.png",
+    "regions": []
+  },
+  {
+    "name": "Bog bilberry",
+    "latinName": "Vaccinium uliginosum",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/bog_bilberry.jpeg",
+    "regions": []
+  },
+  {
+    "name": "Brier",
+    "latinName": "Rosa",
+    "alternativeNames": ["Briar"],
+    "edible": true,
+    "imageAsset": "assets/images/berries/brier.png",
+    "regions": []
+  },
+  {
+    "name": "Cloudberry",
+    "latinName": "Rubus chamaemorus",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/cloudberry.png",
+    "regions": []
+  },
+  {
+    "name": "Cowberry",
+    "latinName": "Vaccinium vitis-idaea",
+    "alternativeNames": ["lingonberry","partridgeberry","mountain cranberry"],
+    "edible": true,
+    "imageAsset": "assets/images/berries/cowberry.png",
+    "regions": []
+  },
+  {
+    "name": "Cranberry",
+    "latinName": "Vaccinium oxycoccos",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/cranberry.png",
+    "regions": []
+  },
+  {
+    "name": "Goji Berries",
+    "latinName": "Lycium barbarum",
+    "alternativeNames": ["wolfberry"],
+    "edible": true,
+    "imageAsset": "assets/images/berries/goji_berries.png",
+    "regions": []
+  },
+  {
+    "name": "Gooseberry",
+    "latinName": "Ríbes úva-críspa",
+    "alternativeNames": ["currant"],
+    "edible": true,
+    "imageAsset": "assets/images/berries/gooseberry.png",
+    "regions": []
+  },
+  {
+    "name": "Paris",
+    "latinName": "Páris",
+    "alternativeNames": ["true lover's knot"],
+    "edible": false,
+    "imageAsset": "assets/images/berries/paris.png",
+    "regions": []
+  },
+  {
+    "name": "Raspberry",
+    "latinName": "Rubus idaeus",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/raspberry.png",
+    "regions": []
+  },
+  {
+    "name": "Ribes",
+    "latinName": "Ribes",
+    "alternativeNames": ["currant"],
+    "edible": true,
+    "imageAsset": "assets/images/berries/ribes.png",
+    "regions": []
+  },
+  {
+    "name": "Rowanberry",
+    "latinName": "Sorbus aucuparia",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/rowanberry.png",
+    "regions": []
+  },
+  {
+    "name": "Seaberry",
+    "latinName": "Hippophae",
+    "alternativeNames": ["sandthorn","sallowthorn"],
+    "edible": true,
+    "imageAsset": "assets/images/berries/seaberry.png",
+    "regions": []
+  },
+  {
+    "name": "Shadberry",
+    "latinName": "Amelanchier",
+    "alternativeNames": ["juneberry","sarvisberry","serviceberry","chuckley pear"],
+    "edible": true,
+    "imageAsset": "assets/images/berries/shadberry.png",
+    "regions": []
+  },
+  {
+    "name": "Strawberry",
+    "latinName": "Fragaria",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/strawberry.png",
+    "regions": []
+  },
+  {
+    "name": "Watermellon",
+    "latinName": "Citrúllus lanátus",
+    "alternativeNames": [],
+    "edible": true,
+    "imageAsset": "assets/images/berries/watermellon.png",
+    "regions": []
+  },
+  {
+    "name": "Wild Strawberry",
+    "latinName": "Fragaria vesca",
+    "alternativeNames": ["woodland strawberry","Alpine strawberry","Carpathian strawberry"],
+    "edible": true,
+    "imageAsset": "assets/images/berries/wild_strawberry.png",
+    "regions": []
+  }
+]
