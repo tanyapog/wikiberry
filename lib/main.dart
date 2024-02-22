@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'catalog_screen.dart';
+import 'presentation/catalog/catalog_screen.dart';
 
 void main() {
   runApp(const WikiBerryApp());
