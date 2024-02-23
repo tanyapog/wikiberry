@@ -4,6 +4,7 @@ import 'package:wikiberria/presentation/shared/theme/app_icon.dart';
 
 import '../../domain/berry.dart';
 import '../shared/box.dart';
+import '../shared/theme/app_text.dart';
 
 class BerryScreen extends StatelessWidget {
   final Berry berry;
@@ -27,7 +28,7 @@ class BerryScreen extends StatelessWidget {
             _InfoElement.string(
               title: "Scientific name",
               content: berry.latinName,
-              contentStyle: const TextStyle(fontStyle: FontStyle.italic),
+              contentStyle: AppTextStyle.titleMediumGray90.copyWith(fontStyle: FontStyle.italic),
             ),
             Box.s16,
             _InfoElement.widget(
@@ -62,16 +63,12 @@ class _InfoElement extends StatelessWidget {
     return Flexible(child: Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text("$title:  ", style: const TextStyle(
-          color: AppColors.grey90,
-          fontSize: 16,
-          fontWeight: FontWeight.bold,
-        )),
+        Text(
+          "$title:  ",
+          style: AppTextStyle.titleMediumGray90.copyWith(fontWeight: FontWeight.bold),
+        ),
         if (content != null) Expanded(
-          child: Text(content!,
-            style: contentStyle == null
-                ? const TextStyle(fontSize: 16, color: AppColors.grey90)
-                : contentStyle?.copyWith(fontSize: 16, color: AppColors.grey90)),
+          child: Text(content!, style: contentStyle ?? AppTextStyle.titleMediumGray90)
         ),
         if (child != null) child!,
       ],
