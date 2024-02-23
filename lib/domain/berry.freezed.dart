@@ -24,6 +24,7 @@ mixin _$Berry {
   String get latinName => throw _privateConstructorUsedError;
   List<String> get alternativeNames => throw _privateConstructorUsedError;
   bool get edible => throw _privateConstructorUsedError;
+  String? get edibleInfo => throw _privateConstructorUsedError;
   String get imageAsset => throw _privateConstructorUsedError;
   String? get wikiUrl => throw _privateConstructorUsedError;
   List<String> get regions => throw _privateConstructorUsedError;
@@ -44,6 +45,7 @@ abstract class $BerryCopyWith<$Res> {
       String latinName,
       List<String> alternativeNames,
       bool edible,
+      String? edibleInfo,
       String imageAsset,
       String? wikiUrl,
       List<String> regions,
@@ -67,6 +69,7 @@ class _$BerryCopyWithImpl<$Res, $Val extends Berry>
     Object? latinName = null,
     Object? alternativeNames = null,
     Object? edible = null,
+    Object? edibleInfo = freezed,
     Object? imageAsset = null,
     Object? wikiUrl = freezed,
     Object? regions = null,
@@ -89,6 +92,10 @@ class _$BerryCopyWithImpl<$Res, $Val extends Berry>
           ? _value.edible
           : edible // ignore: cast_nullable_to_non_nullable
               as bool,
+      edibleInfo: freezed == edibleInfo
+          ? _value.edibleInfo
+          : edibleInfo // ignore: cast_nullable_to_non_nullable
+              as String?,
       imageAsset: null == imageAsset
           ? _value.imageAsset
           : imageAsset // ignore: cast_nullable_to_non_nullable
@@ -121,6 +128,7 @@ abstract class _$$BerryImplCopyWith<$Res> implements $BerryCopyWith<$Res> {
       String latinName,
       List<String> alternativeNames,
       bool edible,
+      String? edibleInfo,
       String imageAsset,
       String? wikiUrl,
       List<String> regions,
@@ -142,6 +150,7 @@ class __$$BerryImplCopyWithImpl<$Res>
     Object? latinName = null,
     Object? alternativeNames = null,
     Object? edible = null,
+    Object? edibleInfo = freezed,
     Object? imageAsset = null,
     Object? wikiUrl = freezed,
     Object? regions = null,
@@ -164,6 +173,10 @@ class __$$BerryImplCopyWithImpl<$Res>
           ? _value.edible
           : edible // ignore: cast_nullable_to_non_nullable
               as bool,
+      edibleInfo: freezed == edibleInfo
+          ? _value.edibleInfo
+          : edibleInfo // ignore: cast_nullable_to_non_nullable
+              as String?,
       imageAsset: null == imageAsset
           ? _value.imageAsset
           : imageAsset // ignore: cast_nullable_to_non_nullable
@@ -192,6 +205,7 @@ class _$BerryImpl implements _Berry {
       required this.latinName,
       required final List<String> alternativeNames,
       required this.edible,
+      this.edibleInfo,
       required this.imageAsset,
       this.wikiUrl,
       required final List<String> regions,
@@ -218,6 +232,8 @@ class _$BerryImpl implements _Berry {
   @override
   final bool edible;
   @override
+  final String? edibleInfo;
+  @override
   final String imageAsset;
   @override
   final String? wikiUrl;
@@ -234,7 +250,7 @@ class _$BerryImpl implements _Berry {
 
   @override
   String toString() {
-    return 'Berry(name: $name, latinName: $latinName, alternativeNames: $alternativeNames, edible: $edible, imageAsset: $imageAsset, wikiUrl: $wikiUrl, regions: $regions, description: $description)';
+    return 'Berry(name: $name, latinName: $latinName, alternativeNames: $alternativeNames, edible: $edible, edibleInfo: $edibleInfo, imageAsset: $imageAsset, wikiUrl: $wikiUrl, regions: $regions, description: $description)';
   }
 
   @override
@@ -248,6 +264,8 @@ class _$BerryImpl implements _Berry {
             const DeepCollectionEquality()
                 .equals(other._alternativeNames, _alternativeNames) &&
             (identical(other.edible, edible) || other.edible == edible) &&
+            (identical(other.edibleInfo, edibleInfo) ||
+                other.edibleInfo == edibleInfo) &&
             (identical(other.imageAsset, imageAsset) ||
                 other.imageAsset == imageAsset) &&
             (identical(other.wikiUrl, wikiUrl) || other.wikiUrl == wikiUrl) &&
@@ -264,6 +282,7 @@ class _$BerryImpl implements _Berry {
       latinName,
       const DeepCollectionEquality().hash(_alternativeNames),
       edible,
+      edibleInfo,
       imageAsset,
       wikiUrl,
       const DeepCollectionEquality().hash(_regions),
@@ -289,6 +308,7 @@ abstract class _Berry implements Berry {
       required final String latinName,
       required final List<String> alternativeNames,
       required final bool edible,
+      final String? edibleInfo,
       required final String imageAsset,
       final String? wikiUrl,
       required final List<String> regions,
@@ -304,6 +324,8 @@ abstract class _Berry implements Berry {
   List<String> get alternativeNames;
   @override
   bool get edible;
+  @override
+  String? get edibleInfo;
   @override
   String get imageAsset;
   @override

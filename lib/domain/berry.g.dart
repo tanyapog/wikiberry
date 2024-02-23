@@ -13,6 +13,7 @@ _$BerryImpl _$$BerryImplFromJson(Map<String, dynamic> json) => _$BerryImpl(
           .map((e) => e as String)
           .toList(),
       edible: json['edible'] as bool,
+      edibleInfo: json['edibleInfo'] as String?,
       imageAsset: json['imageAsset'] as String,
       wikiUrl: json['wikiUrl'] as String?,
       regions:
@@ -26,6 +27,7 @@ Map<String, dynamic> _$$BerryImplToJson(_$BerryImpl instance) =>
       'latinName': instance.latinName,
       'alternativeNames': instance.alternativeNames,
       'edible': instance.edible,
+      'edibleInfo': instance.edibleInfo,
       'imageAsset': instance.imageAsset,
       'wikiUrl': instance.wikiUrl,
       'regions': instance.regions,

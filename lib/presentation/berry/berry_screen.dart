@@ -34,12 +34,10 @@ class BerryScreen extends StatelessWidget {
             Box.s16,
             _InfoElement.widget(
               title: "Edible",
-              child: berry.edible
-                  ? const Icon(AppIcon.raspberry, color: AppColors.green)
-                  : const Icon(AppIcon.skullCrossbones, color: AppColors.danger),
+              child: _EdibleInfo(berry),
             ),
             Box.s16,
-            if (berry.wikiUrl != null) WikiUrl(url: berry.wikiUrl!),
+            if (berry.wikiUrl != null) _WikiUrl(url: berry.wikiUrl!),
           ],
         ),
       ),
@@ -67,9 +65,10 @@ class _InfoElement extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "$title:  ",
+          "$title:",
           style: AppTextStyle.titleMediumGray90.copyWith(fontWeight: FontWeight.bold),
         ),
+        Box.s16,
         if (content != null) Expanded(
           child: Text(content!, style: contentStyle ?? AppTextStyle.titleMediumGray90)
         ),
@@ -79,9 +78,29 @@ class _InfoElement extends StatelessWidget {
   }
 }
 
-class WikiUrl extends StatelessWidget {
+class _EdibleInfo extends StatelessWidget {
+  final Berry berry;
+
+  const _EdibleInfo(this.berry);
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(child: Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        berry.edible
+            ? const Icon(AppIcon.raspberry, color: AppColors.green)
+            : const Icon(AppIcon.skullCrossbones, color: AppColors.danger),
+        if (berry.edibleInfo != null) Box.s16,
+        if (berry.edibleInfo != null) Expanded(child: Text(berry.edibleInfo!, style: AppTextStyle.titleMediumGray90)),
+      ],
+    ));
+  }
+}
+
+class _WikiUrl extends StatelessWidget {
   final String url;
-  const WikiUrl({super.key, required this.url});
+  const _WikiUrl({required this.url});
 
   @override
   Widget build(BuildContext context) {

@@ -112,6 +112,7 @@
     "latinName": "Páris",
     "alternativeNames": ["herb paris", "true-love", "true lover's knot", "one berry", "aconitum pardalianches"],
     "edible": false,
+    "edibleInfo": "The plant is deadly poisonous: even eating one berry can cause death.",
     "imageAsset": "assets/images/berries/paris.png",
     "wikiUrl": "https://en.wikipedia.org/wiki/Paris_(plant)",
     "regions": []

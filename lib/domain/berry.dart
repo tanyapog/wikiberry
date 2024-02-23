@@ -12,6 +12,7 @@ class Berry with _$Berry{
     required String latinName,
     required List<String> alternativeNames,
     required bool edible,
+    String? edibleInfo,
     required String imageAsset,
     String? wikiUrl,
     required List<String> regions,
