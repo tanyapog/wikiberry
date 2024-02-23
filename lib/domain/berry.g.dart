@@ -8,7 +8,7 @@ part of 'berry.dart';
 
 _$BerryImpl _$$BerryImplFromJson(Map<String, dynamic> json) => _$BerryImpl(
       name: json['name'] as String,
-      latinName: json['latinName'] as String?,
+      latinName: json['latinName'] as String,
       alternativeNames: (json['alternativeNames'] as List<dynamic>)
           .map((e) => e as String)
           .toList(),

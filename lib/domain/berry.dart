@@ -9,7 +9,7 @@ part 'berry.g.dart';
 class Berry with _$Berry{
   const factory Berry({
     required String name,
-    String? latinName,
+    required String latinName,
     required List<String> alternativeNames,
     required bool edible,
     required String imageAsset,

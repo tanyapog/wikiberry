@@ -21,7 +21,7 @@ Berry _$BerryFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$Berry {
   String get name => throw _privateConstructorUsedError;
-  String? get latinName => throw _privateConstructorUsedError;
+  String get latinName => throw _privateConstructorUsedError;
   List<String> get alternativeNames => throw _privateConstructorUsedError;
   bool get edible => throw _privateConstructorUsedError;
   String get imageAsset => throw _privateConstructorUsedError;
@@ -40,7 +40,7 @@ abstract class $BerryCopyWith<$Res> {
   @useResult
   $Res call(
       {String name,
-      String? latinName,
+      String latinName,
       List<String> alternativeNames,
       bool edible,
       String imageAsset,
@@ -62,7 +62,7 @@ class _$BerryCopyWithImpl<$Res, $Val extends Berry>
   @override
   $Res call({
     Object? name = null,
-    Object? latinName = freezed,
+    Object? latinName = null,
     Object? alternativeNames = null,
     Object? edible = null,
     Object? imageAsset = null,
@@ -74,10 +74,10 @@ class _$BerryCopyWithImpl<$Res, $Val extends Berry>
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      latinName: freezed == latinName
+      latinName: null == latinName
           ? _value.latinName
           : latinName // ignore: cast_nullable_to_non_nullable
-              as String?,
+              as String,
       alternativeNames: null == alternativeNames
           ? _value.alternativeNames
           : alternativeNames // ignore: cast_nullable_to_non_nullable
@@ -111,7 +111,7 @@ abstract class _$$BerryImplCopyWith<$Res> implements $BerryCopyWith<$Res> {
   @useResult
   $Res call(
       {String name,
-      String? latinName,
+      String latinName,
       List<String> alternativeNames,
       bool edible,
       String imageAsset,
@@ -131,7 +131,7 @@ class __$$BerryImplCopyWithImpl<$Res>
   @override
   $Res call({
     Object? name = null,
-    Object? latinName = freezed,
+    Object? latinName = null,
     Object? alternativeNames = null,
     Object? edible = null,
     Object? imageAsset = null,
@@ -143,10 +143,10 @@ class __$$BerryImplCopyWithImpl<$Res>
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      latinName: freezed == latinName
+      latinName: null == latinName
           ? _value.latinName
           : latinName // ignore: cast_nullable_to_non_nullable
-              as String?,
+              as String,
       alternativeNames: null == alternativeNames
           ? _value._alternativeNames
           : alternativeNames // ignore: cast_nullable_to_non_nullable
@@ -176,7 +176,7 @@ class __$$BerryImplCopyWithImpl<$Res>
 class _$BerryImpl implements _Berry {
   const _$BerryImpl(
       {required this.name,
-      this.latinName,
+      required this.latinName,
       required final List<String> alternativeNames,
       required this.edible,
       required this.imageAsset,
@@ -191,7 +191,7 @@ class _$BerryImpl implements _Berry {
   @override
   final String name;
   @override
-  final String? latinName;
+  final String latinName;
   final List<String> _alternativeNames;
   @override
   List<String> get alternativeNames {
@@ -268,7 +268,7 @@ class _$BerryImpl implements _Berry {
 abstract class _Berry implements Berry {
   const factory _Berry(
       {required final String name,
-      final String? latinName,
+      required final String latinName,
       required final List<String> alternativeNames,
       required final bool edible,
       required final String imageAsset,
@@ -280,7 +280,7 @@ abstract class _Berry implements Berry {
   @override
   String get name;
   @override
-  String? get latinName;
+  String get latinName;
   @override
   List<String> get alternativeNames;
   @override
