@@ -31,7 +31,7 @@ class _AppTitle extends StatelessWidget {
       children: [
         Icon(AppIcon.raspberry, color: AppColors.primaryLight, size: 30),
         Box.s16,
-        Text("Wikiberry", style: TextStyle(
+        Text("Wikiberria", style: TextStyle(
           color: AppColors.primary,
           fontWeight: FontWeight.w400,
           fontSize: 30,
