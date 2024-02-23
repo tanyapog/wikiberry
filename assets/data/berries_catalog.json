@@ -5,6 +5,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/barberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Berberis",
     "regions": []
   },
   {
@@ -13,6 +14,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/bilberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Bilberry",
     "regions": []
   },
   {
@@ -21,6 +23,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/blackberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Blackberry",
     "regions": []
   },
   {
@@ -29,6 +32,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/blackthorn.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Prunus_spinosa",
     "regions": []
   },
   {
@@ -37,6 +41,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/blueberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Blueberry",
     "regions": []
   },
   {
@@ -45,6 +50,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/bog_bilberry.jpeg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Vaccinium_uliginosum",
     "regions": []
   },
   {
@@ -53,6 +59,7 @@
     "alternativeNames": ["Briar"],
     "edible": true,
     "imageAsset": "assets/images/berries/brier.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Brier",
     "regions": []
   },
   {
@@ -61,6 +68,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/cloudberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Rubus_chamaemorus",
     "regions": []
   },
   {
@@ -69,6 +77,7 @@
     "alternativeNames": ["lingonberry","partridgeberry","mountain cranberry"],
     "edible": true,
     "imageAsset": "assets/images/berries/cowberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Vaccinium_vitis-idaea",
     "regions": []
   },
   {
@@ -77,6 +86,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/cranberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Cranberry",
     "regions": []
   },
   {
@@ -85,6 +95,7 @@
     "alternativeNames": ["wolfberry"],
     "edible": true,
     "imageAsset": "assets/images/berries/goji_berries.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Goji",
     "regions": []
   },
   {
@@ -93,14 +104,16 @@
     "alternativeNames": ["currant"],
     "edible": true,
     "imageAsset": "assets/images/berries/gooseberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Gooseberry",
     "regions": []
   },
   {
     "name": "Paris",
     "latinName": "Páris",
-    "alternativeNames": ["true lover's knot"],
+    "alternativeNames": ["herb paris", "true-love", "true lover's knot", "one berry", "aconitum pardalianches"],
     "edible": false,
     "imageAsset": "assets/images/berries/paris.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Paris_(plant)",
     "regions": []
   },
   {
@@ -109,6 +122,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/raspberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Raspberry",
     "regions": []
   },
   {
@@ -117,6 +131,7 @@
     "alternativeNames": ["currant"],
     "edible": true,
     "imageAsset": "assets/images/berries/ribes.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Ribes",
     "regions": []
   },
   {
@@ -125,6 +140,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/rowanberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sorbus_aucuparia",
     "regions": []
   },
   {
@@ -133,6 +149,7 @@
     "alternativeNames": ["sandthorn","sallowthorn"],
     "edible": true,
     "imageAsset": "assets/images/berries/seaberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Hippophae",
     "regions": []
   },
   {
@@ -141,6 +158,7 @@
     "alternativeNames": ["juneberry","sarvisberry","serviceberry","chuckley pear"],
     "edible": true,
     "imageAsset": "assets/images/berries/shadberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Amelanchier",
     "regions": []
   },
   {
@@ -149,6 +167,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/strawberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Strawberry",
     "regions": []
   },
   {
@@ -157,6 +176,7 @@
     "alternativeNames": [],
     "edible": true,
     "imageAsset": "assets/images/berries/watermellon.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Watermelon",
     "regions": []
   },
   {
@@ -165,6 +185,7 @@
     "alternativeNames": ["woodland strawberry","Alpine strawberry","Carpathian strawberry"],
     "edible": true,
     "imageAsset": "assets/images/berries/wild_strawberry.png",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Fragaria_vesca",
     "regions": []
   }
 ]

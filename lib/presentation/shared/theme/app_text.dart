@@ -36,6 +36,7 @@ class AppTextStyle {
 
   static final headlineLargePrimary = headlineLarge.copyWith(color: AppColors.primary);
   static final titleMediumGray90 = titleMedium.copyWith(color: AppColors.grey90);
+  static final titleMediumUrl = titleMedium.copyWith(color: AppColors.url);
 }
 
 /// value in % to the same value in px

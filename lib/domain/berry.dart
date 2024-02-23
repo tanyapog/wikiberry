@@ -13,6 +13,7 @@ class Berry with _$Berry{
     required List<String> alternativeNames,
     required bool edible,
     required String imageAsset,
+    String? wikiUrl,
     required List<String> regions,
     String? description,
   }) = _Berry;
@@ -22,7 +23,6 @@ class Berry with _$Berry{
 
 Future<List<Berry>> loadBerries(BuildContext context) async {
   try {
-    // throw("TEST ERROR");
     final String jsonCatalog = await DefaultAssetBundle.of(context).loadString('assets/data/berries_catalog.json');
     return (jsonDecode(jsonCatalog) as List)
         .map((jsonBerry) => Berry.fromJson(jsonBerry))
