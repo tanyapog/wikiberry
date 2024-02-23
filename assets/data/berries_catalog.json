@@ -74,7 +74,7 @@
   {
     "name": "Cowberry",
     "latinName": "Vaccinium vitis-idaea",
-    "alternativeNames": ["lingonberry","partridgeberry","mountain cranberry"],
+    "alternativeNames": ["Lingonberry","Partridgeberry","Mountain Cranberry"],
     "edible": true,
     "imageAsset": "assets/images/berries/cowberry.png",
     "wikiUrl": "https://en.wikipedia.org/wiki/Vaccinium_vitis-idaea",
@@ -92,7 +92,7 @@
   {
     "name": "Goji Berries",
     "latinName": "Lycium barbarum",
-    "alternativeNames": ["wolfberry"],
+    "alternativeNames": ["Wolfberry"],
     "edible": true,
     "imageAsset": "assets/images/berries/goji_berries.png",
     "wikiUrl": "https://en.wikipedia.org/wiki/Goji",
@@ -101,7 +101,7 @@
   {
     "name": "Gooseberry",
     "latinName": "Ríbes úva-críspa",
-    "alternativeNames": ["currant"],
+    "alternativeNames": ["Currant"],
     "edible": true,
     "imageAsset": "assets/images/berries/gooseberry.png",
     "wikiUrl": "https://en.wikipedia.org/wiki/Gooseberry",
@@ -110,7 +110,7 @@
   {
     "name": "Paris",
     "latinName": "Páris",
-    "alternativeNames": ["herb paris", "true-love", "true lover's knot", "one berry", "aconitum pardalianches"],
+    "alternativeNames": ["Herb Paris", "True-love", "True Lover's Knot", "One Berry", "Aconitum Pardalianches"],
     "edible": false,
     "edibleInfo": "The plant is deadly poisonous: even eating one berry can cause death.",
     "imageAsset": "assets/images/berries/paris.png",
@@ -129,7 +129,7 @@
   {
     "name": "Ribes",
     "latinName": "Ribes",
-    "alternativeNames": ["currant"],
+    "alternativeNames": ["Currant"],
     "edible": true,
     "imageAsset": "assets/images/berries/ribes.png",
     "wikiUrl": "https://en.wikipedia.org/wiki/Ribes",
@@ -147,7 +147,7 @@
   {
     "name": "Seaberry",
     "latinName": "Hippophae",
-    "alternativeNames": ["sandthorn","sallowthorn"],
+    "alternativeNames": ["Sandthorn","Sallowthorn"],
     "edible": true,
     "imageAsset": "assets/images/berries/seaberry.png",
     "wikiUrl": "https://en.wikipedia.org/wiki/Hippophae",
@@ -156,7 +156,7 @@
   {
     "name": "Shadberry",
     "latinName": "Amelanchier",
-    "alternativeNames": ["juneberry","sarvisberry","serviceberry","chuckley pear"],
+    "alternativeNames": ["Juneberry","Sarvisberry","Serviceberry","Chuckley Pear"],
     "edible": true,
     "imageAsset": "assets/images/berries/shadberry.png",
     "wikiUrl": "https://en.wikipedia.org/wiki/Amelanchier",
@@ -183,7 +183,7 @@
   {
     "name": "Wild Strawberry",
     "latinName": "Fragaria vesca",
-    "alternativeNames": ["woodland strawberry","Alpine strawberry","Carpathian strawberry"],
+    "alternativeNames": ["Woodland Strawberry","Strawberry","Carpathian Strawberry"],
     "edible": true,
     "imageAsset": "assets/images/berries/wild_strawberry.png",
     "wikiUrl": "https://en.wikipedia.org/wiki/Fragaria_vesca",
