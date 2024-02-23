@@ -64,13 +64,14 @@ class _InfoElement extends StatelessWidget {
       children: [
         Text("$title:  ", style: const TextStyle(
           color: AppColors.grey90,
+          fontSize: 16,
           fontWeight: FontWeight.bold,
         )),
         if (content != null) Expanded(
           child: Text(content!,
             style: contentStyle == null
-                ? const TextStyle(color: AppColors.grey90)
-                : contentStyle?.copyWith(color: AppColors.grey90)),
+                ? const TextStyle(fontSize: 16, color: AppColors.grey90)
+                : contentStyle?.copyWith(fontSize: 16, color: AppColors.grey90)),
         ),
         if (child != null) child!,
       ],
