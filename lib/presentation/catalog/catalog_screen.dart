@@ -33,7 +33,6 @@ class _AppTitle extends StatelessWidget {
           Box.s16,
           Text("Wikiberry", style: TextStyle(
             color: AppColors.primary,
-            // fontFamily: String.fromEnvironment(name),
             fontWeight: FontWeight.w400,
             fontSize: 30,
           )),
