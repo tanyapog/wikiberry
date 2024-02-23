@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wikiberry/presentation/berry/berry_screen.dart';
 
 import '../../../domain/berry.dart';
 import '../../shared/theme/app_colors.dart';
@@ -10,12 +11,16 @@ class BerryCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        _BerryImage(asset: berry.imageAsset),
-        _CardTitle(berry: berry),
-      ],
+    return InkWell(
+      onTap: () => Navigator.of(context)
+          .push(MaterialPageRoute(builder: (context) => BerryScreen(berry))),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          _BerryImage(asset: berry.imageAsset),
+          _CardTitle(berry: berry),
+        ],
+      ),
     );
   }
 }
