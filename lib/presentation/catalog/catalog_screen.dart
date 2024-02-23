@@ -25,19 +25,18 @@ class _AppTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Flexible(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(AppIcon.raspberry, color: AppColors.primaryLight, size: 30),
-          Box.s16,
-          Text("Wikiberry", style: TextStyle(
-            color: AppColors.primary,
-            fontWeight: FontWeight.w400,
-            fontSize: 30,
-          )),
-        ],
-      ),
+    return const Row(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(AppIcon.raspberry, color: AppColors.primaryLight, size: 30),
+        Box.s16,
+        Text("Wikiberry", style: TextStyle(
+          color: AppColors.primary,
+          fontWeight: FontWeight.w400,
+          fontSize: 30,
+        )),
+      ],
     );
   }
 }

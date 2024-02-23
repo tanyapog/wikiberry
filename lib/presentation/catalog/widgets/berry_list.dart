@@ -31,7 +31,6 @@ class _BerryListState extends State<BerryList> {
               childAspectRatio: (1 / 1.2),
               crossAxisCount: 2,
               crossAxisSpacing: 5,
-              // mainAxisSpacing: 5,
             ),
             itemBuilder: (context, i) => BerryCard(berries[i]),
           );
@@ -42,4 +41,3 @@ class _BerryListState extends State<BerryList> {
     );
   }
 }
-
