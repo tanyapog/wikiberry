@@ -1,3 +1,3 @@
-# wikiberry
+# wikiberria
 
 A catalog of berries

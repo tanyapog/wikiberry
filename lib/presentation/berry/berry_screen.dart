@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wikiberry/presentation/shared/theme/app_colors.dart';
-import 'package:wikiberry/presentation/shared/theme/app_icon.dart';
+import 'package:wikiberria/presentation/shared/theme/app_colors.dart';
+import 'package:wikiberria/presentation/shared/theme/app_icon.dart';
 
 import '../../domain/berry.dart';
 import '../shared/box.dart';

@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "wikiberry" "\0"
+            VALUE "FileDescription", "wikiberria" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "wikiberry" "\0"
+            VALUE "InternalName", "wikiberria" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "wikiberry.exe" "\0"
-            VALUE "ProductName", "wikiberry" "\0"
+            VALUE "OriginalFilename", "wikiberria.exe" "\0"
+            VALUE "ProductName", "wikiberria" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

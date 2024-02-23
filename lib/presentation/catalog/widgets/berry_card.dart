@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wikiberry/presentation/berry/berry_screen.dart';
+import 'package:wikiberria/presentation/berry/berry_screen.dart';
 
 import '../../../domain/berry.dart';
 import '../../shared/theme/app_colors.dart';

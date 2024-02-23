@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 import 'presentation/catalog/catalog_screen.dart';
 
 void main() {
-  runApp(const WikiBerryApp());
+  runApp(const WikiberriaApp());
 }
 
-class WikiBerryApp extends StatelessWidget {
-  const WikiBerryApp({super.key});
+class WikiberriaApp extends StatelessWidget {
+  const WikiberriaApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: "Wikiberry",
+      title: "Wikiberria",
       home: CatalogScreen(),
       debugShowCheckedModeBanner: false,
     );
