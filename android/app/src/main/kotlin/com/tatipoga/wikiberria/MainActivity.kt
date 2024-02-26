@@ -1,4 +1,4 @@
-package com.example.wikiberria
+package com.tatipoga.wikiberria
 
 import io.flutter.embedding.android.FlutterActivity
 
